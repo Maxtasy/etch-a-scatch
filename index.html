@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+    <title>Etch-A-Sketch</title>
+</head>
+<body>
+    <header>
+        <div class="grid-container">
+            <div class="menu-button" onclick="clearBoard()"><img src="img/clear.png" alt="Clear"><br>Clear</div>
+            <div class="menu-button" onclick="changeSize()"><img src="img/resize.png" alt="Resize"><br>Change size</div>
+            <div class="menu-button button-black" onclick="setColor('black')"><img src="img/black.png" alt="Color Black"><br>Black</div>
+            <div class="menu-button button-black-soft" onclick="setColor('black-soft')"><img src="img/black_soft.png" alt="Color Black"><br>Black soft</div>
+            <div class="menu-button button-random" onclick="setColor('random')"><img src="img/random.png" alt="Color Random"><br>Random</div>
+        </div>
+    </header>
+    <main>
+    <div id="container"></div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
